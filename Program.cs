@@ -10,39 +10,39 @@ namespace CSharpFunda
         {
             //1. Write a program to print your name, address, contact number & city.
 
-            /*Console.WriteLine("Om Dabhi");
+            Console.WriteLine("Om Dabhi");
             Console.WriteLine("Address");
             Console.WriteLine("omdabhi2905@gmail.com");
-            Console.WriteLine("Rajkot");*/
+            Console.WriteLine("Rajkot");
 
             //2.Write a program to get two numbers from user and print those two numbers.
 
-            /*Console.WriteLine("Enter Number1: ");
+            Console.WriteLine("Enter Number1: ");
             int n1 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Enter Number1: ");
             int n2 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("N1: " + n1);
-            Console.WriteLine("N2: " + n2);*/
+            Console.WriteLine("N2: " + n2);
 
             //3.Write program to prompt a user to input his/ her name and country name and then output will be shown as given: Hello<yourname> from country <countryname>
 
-            /*Console.WriteLine("Enter Your Name: ");
+            Console.WriteLine("Enter Your Name: ");
             String name = Console.ReadLine();
             Console.WriteLine("Enter Your Country: ");
             String country = Console.ReadLine();
-            Console.WriteLine("Hello "+name+" from Country "+country);*/
+            Console.WriteLine("Hello "+name+" from Country "+country);
 
             //4. Write a program to calculate the size of the area in square-feet based on Specified length and width.
 
-            /*Console.Write("Enter the length in feet: ");
+            Console.Write("Enter the length in feet: ");
             float length = float.Parse(Console.ReadLine());
             Console.Write("Enter the width in feet: ");
             float width = float.Parse(Console.ReadLine());
             float area = length * width;
-            Console.WriteLine("The area is: " + area + " square feet.");*/
+            Console.WriteLine("The area is: " + area + " square feet;
 
             //5. Write a program to calculate area of Square, Rectangle and Circle.
-            /*Console.WriteLine("Area Calculator");
+            Console.WriteLine("Area Calculator");
             Console.WriteLine("----------------");
 
             Console.WriteLine("1. Square");
@@ -85,11 +85,11 @@ namespace CSharpFunda
             default:
                 Console.WriteLine("Invalid choice. Exiting the program.");
                 break;
-        }*/
+        }
 
             //6. Write a program to calculate Celsius to Fahrenheit and vice-versa function.
 
-            /* Console.WriteLine("Temperature Converter");
+             Console.WriteLine("Temperature Converter");
              Console.WriteLine("---------------------");
 
              Console.WriteLine("1. Celsius to Fahrenheit");
@@ -135,7 +135,7 @@ namespace CSharpFunda
 
             //7. Write a program to find out Simple Interest using function. (I = PRN/100)
 
-            /* Console.WriteLine("Simple Interest Calculator");
+             Console.WriteLine("Simple Interest Calculator");
              Console.WriteLine("-------------------------");
 
              Console.Write("Enter the principal amount: ");
@@ -155,11 +155,11 @@ namespace CSharpFunda
          static float CalculateSimpleInterest(float principal, float rate, float time)
          {
              float interest = (principal * rate * time) / 100;
-             return interest;*/
+             return interest;
 
             //8. Write a program to create a Simple Calculator for two numbers (Addition, Multiplication, Subtraction, Division) [Also using if…else &Switch Case]
 
-            /*Console.WriteLine("Simple Calculator");
+            Console.WriteLine("Simple Calculator");
             Console.WriteLine("-----------------");
 
             Console.Write("Enter the first number: ");
@@ -211,11 +211,11 @@ namespace CSharpFunda
             else
             {
                 Console.WriteLine("Error: Invalid choice.");
-            }*/
+            }
 
             //9. Write a program to find maximum numbers from given 3 numbers.
 
-            /*Console.WriteLine("Maximum Number Finder");
+            Console.WriteLine("Maximum Number Finder");
             Console.WriteLine("---------------------");
 
             Console.Write("Enter the first number: ");
@@ -246,11 +246,11 @@ namespace CSharpFunda
                 max = num3;
             }
 
-            return max;*/
+            return max;
 
             //10. Write a program to Swapping without using third variable.
 
-            /*Console.WriteLine("Number Swapper");
+            Console.WriteLine("Number Swapper");
             Console.WriteLine("--------------");
 
             Console.Write("Enter the first number: ");
@@ -274,7 +274,7 @@ namespace CSharpFunda
         {
             num1 = num1 + num2;
             num2 = num1 - num2;
-            num1 = num1 - num2;*/
+            num1 = num1 - num2;
         }
     }
 }
